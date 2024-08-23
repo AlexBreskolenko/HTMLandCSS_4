@@ -258,3 +258,36 @@ body {
     }
   }
 }
+
+.footer {
+  background-color: #222224;
+  height: 79px;
+  display: flex;
+  align-items: center;
+  &__section {
+    display: flex;
+    justify-content: space-between;
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      color: #fbfbfb;
+      font-family: $fontRegular;
+      display: flex;
+      align-items: center;
+    }
+  }
+  &__icon {
+    display: flex;
+    gap: 8px;
+    .icon:hover {
+      transition: 0.3s;
+      transform: scale(1.1);
+    }
+    .icon:hover path{
+      fill: $colorPink;
+    }
+    .icon:hover path:last-child {
+      fill: white;
+    }
+  }
+}

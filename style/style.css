@@ -269,4 +269,37 @@ body {
   color: #fff;
   font-family: "Lato-Regular";
   cursor: pointer;
+}
+
+.footer {
+  background-color: #222224;
+  height: 79px;
+  display: flex;
+  align-items: center;
+}
+.footer__section {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__section p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fbfbfb;
+  font-family: "Lato-Regular";
+  display: flex;
+  align-items: center;
+}
+.footer__icon {
+  display: flex;
+  gap: 8px;
+}
+.footer__icon .icon:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.footer__icon .icon:hover path {
+  fill: #f16d7f;
+}
+.footer__icon .icon:hover path:last-child {
+  fill: white;
 }/*# sourceMappingURL=style.css.map */
