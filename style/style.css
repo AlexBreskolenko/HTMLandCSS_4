@@ -63,4 +63,127 @@ body {
 .header__section .box__link:hover {
   transition: 0.3s;
   transform: scale(1.1);
+}
+
+.main .section-one {
+  background-color: #f8f3f4;
+  height: 148px;
+  display: flex;
+  align-items: center;
+}
+.main .section-one__header {
+  font-weight: 400;
+  font-size: 24px;
+  color: #f16d7f;
+  font-family: "Lato-Regular";
+}
+.main .section-two {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+.main .section-two .form {
+  max-width: 360px;
+}
+.main .section-two .form__input {
+  height: 149px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main .section-two .form__input h3 {
+  font-weight: 300;
+  font-size: 16px;
+  color: #222;
+  font-family: "Lato-Light";
+}
+.main .section-two .form__input input {
+  height: 45px;
+  padding-left: 17px;
+}
+.main .section-two .form__input input::-moz-placeholder {
+  font-weight: 300;
+  font-size: 13px;
+  color: #b1b1b1;
+  font-family: "Lato-Light";
+}
+.main .section-two .form__input input::placeholder {
+  font-weight: 300;
+  font-size: 13px;
+  color: #b1b1b1;
+  font-family: "Lato-Light";
+}
+.main .section-two .form__check {
+  display: flex;
+  gap: 20px;
+}
+.main .section-two .form__check-box {
+  display: flex;
+  gap: 10px;
+  margin-top: 31px;
+  margin-bottom: 33px;
+}
+.main .section-two .form__check-box label {
+  font-weight: 300;
+  font-size: 11px;
+  color: #000;
+  font-family: "Lato-Regular";
+}
+.main .section-two .form__warning {
+  font-weight: 300;
+  font-size: 13px;
+  color: #b1b1b1;
+  margin-top: 15px;
+  margin-bottom: 39px;
+  font-family: "Lato-Light";
+}
+.main .section-two .form__btn {
+  width: 167px;
+  height: 50px;
+  background-color: #f16d7f;
+  cursor: pointer;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Lato-Regular";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.main .section-two .program-loyalty {
+  max-width: 652px;
+  height: 334px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main .section-two .program-loyalty h2 {
+  font-weight: 300;
+  font-size: 24px;
+  color: #000;
+  font-family: "Lato-Light";
+}
+.main .section-two .program-loyalty p {
+  font-weight: 300;
+  font-size: 24px;
+  color: #000;
+  font-family: "Lato-Light";
+}
+.main .section-two .program-loyalty span {
+  font-weight: 300;
+  font-size: 24px;
+  color: #000;
+  font-family: "Lato-Light";
+}
+.main .section-two .program-loyalty__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.main .section-two .program-loyalty__link {
+  display: flex;
+  gap: 22px;
 }/*# sourceMappingURL=style.css.map */
