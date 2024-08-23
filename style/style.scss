@@ -18,4 +18,48 @@ body {
 
 .container {
   width: $containerWidth;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+  height: 75px;
+  &__section {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    .box-left__icon {
+      display: flex;
+      gap: 41px;
+      align-items: end;
+    }
+    .box-right__icon {
+      display: flex;
+      align-items: end;
+      gap: 25px;
+      &_count {
+        position: absolute;
+        font-weight: 400;
+        font-size: 12px;
+        color: #fff;
+        width: 19px;
+        height: 19px;
+        background-color: $colorPink;
+        text-align: center;
+        border-radius: 50px;
+        top: 2px;
+        right: -10px;
+        font-family: $fontRegular;
+      }
+    }
+    .box__link:hover path {
+      fill: $colorPink;
+    }
+    .box__link:hover{
+      transition: 0.3s;
+      transform: scale(1.1);
+    }
+  }
 }
