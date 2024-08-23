@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+@import "vars";
+
+body {
+  max-width: $bodyWidth;
+  margin: 0 auto;
+}
+
+.container {
+  width: $containerWidth;
+}

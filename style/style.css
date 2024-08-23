@@ -1,1 +1,22 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1140px;
+}/*# sourceMappingURL=style.css.map */
